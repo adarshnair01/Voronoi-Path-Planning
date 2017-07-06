@@ -13,3 +13,11 @@ We generate upto 5 random points on given image and use them for optimizaing our
 ![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/path.jpg?raw=true "Spline Interpolation")
 ![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/x_spline.jpg?raw=true "Spline Interpolation")
 ![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/y_spline.jpg?raw=true "Spline Interpolation")
+
+All the MOES we are going to use for finding a better path have three objective
+function:
+
+1. Path length (Total path length from start to goal).
+2. Path Smoothness (Maximum turn a robot takes while travelling from source
+to goal).
+3. Path Clearance (Helps in keeping a safe distance from obstacle). Evluation of these objective functions is done in a way that the function values for all the objective function in given evolutionary algorithms get minimized. Following sections will describe the objective functions to get a better insight.
