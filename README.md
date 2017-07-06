@@ -3,5 +3,6 @@ The Robot Revolution already is happening. It has been happening for decades. To
 
 In real life, finding path is easy, as our mind processes the image acquired by our eyes, and find an obstacle free path depending on the environment. The same sequence is followed by robots. They need to process the image or data acquired by their sensors and act accordingly. Path planning problem is considered a novel problem in AI. In our case we are trying to solve the problem of moving the robot in best way possible taking into consideration multiple objective. We are also taking a constraint and checking for feasibility of a particular path.
 
-![realimage](/project/results/image.jpg?raw=true "Real Image" {width=100px height=100px})
-![processedImage](/project/results/out.jpg?raw=true "Real Image" {width=100px height=100px})
+## 1. Process input Image to convert it to bitmap image 
+![realimage](/project/results/image.jpg?raw=true "Real Image")
+![processedImage](/project/results/out.jpg?raw=true "Real Image")
