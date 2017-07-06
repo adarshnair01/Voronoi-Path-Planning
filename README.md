@@ -1,2 +1,7 @@
-# Voronoi-Path-Planning
-Path Planning using MOCMAES with assistance of Voronoi Diagram
+# Voronoi Path Planning
+The Robot Revolution already is happening. It has been happening for decades. Today we are can see more of robots around. The packBot from iRobot, TUG Autonomous mobile robots from aethon, Baxter fromrethink robotics and many more like them. These days, there are robots helping scientists at the highly technical labs, and there might be one mowing your lawn. All of the convenience that we already enjoy took decades of hard work by scientists. Some of the problems that robotics engineers were struggling with fifty years ago still have not been solved, so there is a whole lot of history that went into the robots that we rely on today, and it just might help you understand why we do not have robots taking care of our every need. Technically speaking, a robot is just a machine designed to accomplish a task. When we talk about robots, we are really talking about machines that use their programming to make decisions.
+
+In real life, finding path is easy, as our mind processes the image acquired by our eyes, and find an obstacle free path depending on the environment. The same sequence is followed by robots. They need to process the image or data acquired by their sensors and act accordingly. Path planning problem is considered a novel problem in AI. In our case we are trying to solve the problem of moving the robot in best way possible taking into consideration multiple objective. We are also taking a constraint and checking for feasibility of a particular path.
+
+![realimage](/project/results/image.jpg?raw=true "Real Image")
+![processedImage](/project/results/out.jpg?raw=true "Real Image")
