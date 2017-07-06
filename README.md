@@ -8,8 +8,8 @@ In real life, finding path is easy, as our mind processes the image acquired by 
 ![processedImage](/project/results/out.jpg?raw=true "Processed Image")
 
 ## 2. Create paths randomly as input for optimization function
-![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/spline_intro.png?raw=true "Spline Interpolation")
-Suppose we are given a set of points (x<sub>0</sub> , y<sub>0</sub> ), (x<sub>1</sub> , y<sub>1</sub> ), ..., (x<sub>n</sub> , y<sub>n</sub> ) for a function
-y = f(x) where the values of x are in ascending order and our objective is to find
-the values of (x<sub>i</sub> , y<sub>i</sub> ) where i is such that the value of x i lies in between the adjacent
-points say x<sub>j</sub> and x<sub>(j+1)</sub>; j = 1, 2. . . n..
+We generate upto 5 random points on given image and use them for optimizaing our optiization function. Now, we have set of points (x<sub>0</sub> , y<sub>0</sub> ), (x<sub>1</sub> , y<sub>1</sub> ), ..., (x<sub>n</sub> , y<sub>n</sub> ) for a function y = f(x) where the values of x are in ascending order and our objective is to find the values of (x<sub>i</sub> , y<sub>i</sub> ) where i is such that the value of x i lies in between the adjacent points say x<sub>j</sub> and x<sub>(j+1)</sub>; j = 1, 2. . . n. We use cubic spline interpolation for getting smooth path from random points.
+
+![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/path.png?raw=true "Spline Interpolation")
+![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/x_spline.png?raw=true "Spline Interpolation")
+![spline](https://github.com/adarshnair01/Voronoi-Path-Planning/blob/master/figures/y_spline.png?raw=true "Spline Interpolation")
