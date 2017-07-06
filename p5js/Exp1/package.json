@@ -1,0 +1,17 @@
+{
+  "name": "MOCMAES",
+  "version": "0.0.0",
+  "description": "Online Framework for Trajectory Planning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adarsh Nair",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.4",
+    "socket.io": "~1.4.6",
+    "body-parser": "~1.15.1",
+    "exec-sync": "~0.1.6"
+  }
+}

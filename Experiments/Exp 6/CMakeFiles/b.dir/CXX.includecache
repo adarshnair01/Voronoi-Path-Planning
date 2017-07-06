@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/messi/Documents/Experiments/Exp 6/a.cpp
+
+/home/messi/Documents/Experiments/Exp 6/b.cpp
+a.cpp
+/home/messi/Documents/Experiments/Exp 6/a.cpp
+iostream
+-
+
